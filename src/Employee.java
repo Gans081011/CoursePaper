@@ -58,6 +58,6 @@ public class Employee {
                 ", salary=" + salary +
                 ", numDepartment=" + numDepartment +
                 '}';
-        }
+    }
 }
 
