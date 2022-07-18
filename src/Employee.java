@@ -1,10 +1,10 @@
 public class Employee {
-    String firstName;
-    String lastName;
-    String patronymic;
-    float salary;
-    int numDepartment;
-    int id;
+  private   String firstName;
+    private String lastName;
+    private String patronymic;
+    private float salary;
+    private int numDepartment;
+    private int id;
     private static int COUNT = 0;
 
     public Employee(String firstName, String lastName, String patronymic, int salary, int numDepartment) {
@@ -59,5 +59,6 @@ public class Employee {
                 ", numDepartment=" + numDepartment +
                 '}';
     }
+
 }
 
